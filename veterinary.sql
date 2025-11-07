@@ -36,3 +36,12 @@ CREATE TABLE doctors (
     phone VARCHAR(15),
     email VARCHAR(100)
 );
+
+CREATE TABLE invoices (
+    invoiceid INT PRIMARY KEY,
+    appointid INT,
+    amount DECIMAL(10, 2),
+    issuedate DATE,
+    paid BOOLEAN,
+    FOREIGN KEY (appointid) REFERENCES appointments(appointid)
+);
