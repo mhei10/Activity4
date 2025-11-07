@@ -73,7 +73,7 @@ VALUES
 INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color, ownerid)
 VALUES
 (1, 'Buddy', 'Dog', 'Labrador Retriever', '2018-05-20', 'Male', 'Yellow', 1),
-(2, 'Mittens', 'Cat', 'Siamese', '2019-08-15', 'Female', 'Cream', 2),
+(2, 'Simba', 'Cat', 'Siamese', '2019-08-15', 'Female', 'Cream', 2),
 (3, 'Charlie', 'Dog', 'Beagle', '2017-11-30', 'Male', 'Tricolor', 3),
 (4, 'Luna', 'Cat', 'Maine Coon', '2022-10-26', 'Female', 'Blue', 4),
 (5, 'Ohm', 'Dog', 'Shih Tzu', '2020-05-20', 'Male', 'Brown', 5),
