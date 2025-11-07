@@ -81,7 +81,7 @@ VALUES
 (7, 'Nunew', 'Dog', 'Labrador', '2020-02-16', 'Male', 'Black', 7),
 (8, 'Caloy', 'Dog', 'Bulldog', '2023-11-21', 'Male', 'Light Blue', 8),
 (9, 'Toria', 'Cat', 'Ragdall', '2021-04-07', 'Female', 'White', 9),
-(10, 'Hanna', 'Dog', 'Shetland Sheepdog', '2023-07-09', 'Light Brown', 10);
+(10, 'Hanna', 'Dog', 'Shetland Sheepdog', '2023-07-09', 'Famale', 'Light Brown', 10);
 
 INSERT INTO appointments (appointid, animalid, appointdate, reason)
 VALUES
