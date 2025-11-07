@@ -144,3 +144,5 @@ SET dlastname = 'Reyes-Gonzales'
 WHERE dfirstname = 'Dr.Sofia' AND dlastname = 'Reyes';
 
 SELECT DISTINCT species FROM animals;
+
+SELECT SUM(totalamount) AS total_sales FROM invoices;
