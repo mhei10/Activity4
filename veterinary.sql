@@ -46,7 +46,7 @@ CREATE TABLE invoices (
     FOREIGN KEY (appointid) REFERENCES appointments(appointid)
 );
 
-CREATE TABLE medical_records (
+CREATE TABLE medicalrecords (
     recordid INT PRIMARY KEY,
     animalid INT,
     visitdate DATE,
